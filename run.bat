@@ -1,0 +1,1 @@
+docker run --rm --name test-apache -p 2222:22 test-apache
