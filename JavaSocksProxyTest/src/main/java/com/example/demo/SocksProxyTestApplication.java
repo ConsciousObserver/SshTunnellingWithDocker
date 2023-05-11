@@ -16,9 +16,9 @@ public class SocksProxyTestApplication {
     public static void main(String[] args) throws Exception {
         log.info("Started ---------------");
 
-//        System.getProperties().put( "proxySet", "true" );
-//        System.getProperties().put( "socksProxyHost", "127.0.0.1" );
-//        System.getProperties().put( "socksProxyPort", "8080" );
+       System.getProperties().put( "proxySet", "true" );
+       System.getProperties().put( "socksProxyHost", "127.0.0.1" );
+       System.getProperties().put( "socksProxyPort", "8080" );
         
         
         RestTemplate restTemplate = new RestTemplate();
