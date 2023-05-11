@@ -1,6 +1,4 @@
-FROM apache
-
-# RUN service ssh restart
+FROM httpd:2.4.57
 
 RUN apt-get update && \
   apt-get install -y openssh-server &&\
