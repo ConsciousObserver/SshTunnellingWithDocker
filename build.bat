@@ -1,1 +1,1 @@
-docker build -t test-apache ./
+docker build -t test-httpd ./
